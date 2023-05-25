@@ -6,7 +6,7 @@ const PORT= process.env.PORT || 28714;
 const DB_PASSWORD = process.env.DB_PASSWORD;
 const pool = new pg.Pool({
     // The name of your database. This will change for every app!
-    database: 'TBDServer', 
+    database: 'CrashAbandoncoot/TBDServer', 
     ssl: true,
     host: 'db.bit.io',
     // Postgres listens for network connections on port 5432, by default
