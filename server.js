@@ -1,5 +1,5 @@
 const express = require('express');
-const pq = require('pg')
+const pg = require('pg');
 const app = express();
 
 const PORT= process.env.PORT || 28714;
@@ -11,7 +11,7 @@ const pool = new pg.Pool({
     host: 'db.bit.io',
     // Postgres listens for network connections on port 5432, by default
     port: 5432,
-    username: CrashAbandoncoot,
+    username: 'CrashAbandoncoot',
     password: DB_PASSWORD
 });
 
